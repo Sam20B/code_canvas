@@ -1,2 +1,2 @@
-# Sam20B_codes
-consist of the projects I come up with
+#code_canvas
+Here you'll find diverse range of coding explorations.Feel free to browse,learn and contribute...
