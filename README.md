@@ -1,2 +1,2 @@
-Welcome to the code_canvas repository,a treasure trove of code snippets and personal projects crafted by Bibiana Samanya.
+Welcome to the code_canvas repository,a treasure trove of code snippets and personal projects crafted by Samanya.
 This repository is a showcase of my passion in programming and my journey in software development.It contains a diverse array of projects,from web application and scripts to data analysis tools and more...Each project reflects my dedication to writing clean,efficient,and well-documented code.
