@@ -1,23 +1,110 @@
 <html>
     <head>
         <title>canvases</title>
+        <style>
+            body {
+                background-color:rgb(220, 133, 231);
+            }
+            .top {
+                position:absolute;
+                font-size:medium;
+                font-family:consolas;
+                font-weight:700;
+                top:5%;
+                left:48%;
+                text-align:center;
+                color:rgb(133, 60, 143);
+            }
+            .bottom {
+                position:absolute;
+                font-size:medium;
+                font-family:consolas;
+                font-weight:700;
+                top:7%;
+                left:46%;
+                text-align:center;
+                color:rgb(133, 60, 143);
+            }
+            .cont1 {
+                position:absolute;
+                background-color:rgb(240, 207, 245);
+                width:90%;
+                height:70%;
+                left:5%;
+                top:25%;
+                border-radius:20px;
+                font-family:consolas;
+                font-size:medium;
+                color:rgb(133, 60, 143);
+                box-shadow:0px 3px 7px 3px rgb(200, 118, 211);
+            }
+            .img{
+                position:absolute;
+                left:4%;
+                top:5%;
+                display:inline;
+            }
+            .c1p1 {
+                position:absolute;
+                left:4%;
+                top:35%;
+                display:inline;
+            }
+            .list {
+                position:absolute;
+                left:4%;
+                top:45%;
+                display:inline;
+            }
+            .c1p2 {
+                position:absolute;
+                left:4%;
+                top:65%;
+                display:inline;
+            }
+            .c1l1 {
+                position:absolute;
+                left:4%;
+                top:79%;
+                display:inline;
+            }
+            .input1 {
+                position:absolute;
+                left:18%;
+                top:79%;
+                display:inline;
+            }
+            .cont2 {
+                position:absolute;
+                background-color:#cea05cfb;
+                width:45%;
+                height:90%;
+                left:52%;
+                top:5%;
+                border-radius:20px;
+                box-shadow: 0px 2px 3px 2px rgb(226, 190, 231);
+            }
+        </style>
     </head>
-        <body style = "background-color:#e9d182fb">
+        <body>
         <header>
-        <h1 style="text-align:center;color:brown;background-color:#e6b469fb">Samz canvases</h1>
+        <p class="top">S a m z</p>
+        <p class="bottom">C a n v a s e s</p>
         </header>
         <main>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1T3ZkvB_IWrjgHJ6dAAesTW9n8GlXl79sqQ&usqp=CAU">
-        <p>Introducing our <b>latest product</b>,designed to make life colorful and more interesting</p><!--description of what the page contains-->
-        <ul>
+        <div class="cont1">
+            <img  class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1T3ZkvB_IWrjgHJ6dAAesTW9n8GlXl79sqQ&usqp=CAU">
+        <p class="c1p1">Introducing our <b>latest product</b>,designed to make life colorful<br>and more interesting</p><!--description of what the page contains-->
+        <ul class="list">
             <li>Monochromatic</li>
             <li>Abstract</li>
             <li>2 dimensional</li>
             <li>3 dimensional</li>
         </ul>
-        <p>Before placing your order make sure you have agreed to the <a href = "https://terms and conditions to cargo shop">terms and conditions.</a></p>
-        <label for = "terms and conditions">Agree and continue: </label>
-        <input type = "checkbox" id = "terms and conditions">
+        <p class="c1p2">Before placing your order make sure you have agreed to the <br><a href = "https://terms and conditions to cargo shop">terms and conditions.</a></p>
+        <label class="c1l1" for = "terms and conditions">Agree and continue: </label>
+        <input class="input1" type = "checkbox" id = "terms and conditions">
+        <div class="cont2">
         <h2 style="text-align:center;color:brown;background-color:#e6b469fb">Order yours now!</h2>
             <form>
                 <label for = "size">Size: </label>
@@ -49,6 +136,8 @@
                 <input type = "radio" id = "card" name = "choice" value = "card"><br><br>
                 <input onclick="alert('Order confirmed!')" style="border:none;border-radius:5xp;background-color:#555555;color:white" type = "submit">
             </form>
+            </div>
+        </div>
             </main>
             <footer>
                 <p>For more information contact: </p>
