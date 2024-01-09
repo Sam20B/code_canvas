@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transparent login page</title>
+    <style>
+        body {
+            background-size:cover;
+            background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3NuLdm0RbwYiJ-pm6VWICL374IWkxjrEcw&usqp=CAU');
+        }
+        .cont {
+            position:absolute;
+            left:37.5%;
+            top:20%;
+            width:25%;
+            height:60%;
+            border-radius:10px;
+            background-color:rgba(48, 46, 46, 0.3);
+            backdrop-filter:blur;
+            box-shadow: 0px 10px 15px 7px rgb(44, 42, 42, 0.2);
+        }
+        .h1 {
+            position:absolute;
+            top:2%;
+            left:35%;
+            font-family:consolas;
+            color:rgb(0, 0, 0);
+        }
+        .l1 {
+            position:absolute;
+            left:8%;
+            top:30%;
+            font-family:consolas;
+            font-size:small;
+            color:rgb(0, 0, 0);
+            font-weight:500px;
+        }
+        .i1 {
+            position:absolute;
+            top:25%;
+            left:23%;
+            width:65%;
+            height:30px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            background-color:rgba(100, 98, 98, 0.0);
+            vertical-align: baseline;
+        }
+        .i1:focus {
+            outline:none;
+        }
+        .l2 {
+            position:absolute;
+            left:8%;
+            top:45%;
+            font-family:consolas;
+            font-size:small;
+            color:rgb(0, 0, 0);
+            font-weight:500px;
+        }
+        .i2 {
+            position:absolute;
+            top:40%;
+            left:28%;
+            width:60%;
+            height:30px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            background-color:rgba(100, 98, 98, 0.0);
+        }
+        .i2:focus {
+            outline:none;
+        }
+        .l3 {
+            position:absolute;
+            top:53%;
+            left:13%;
+            font-family:consolas;
+            font-size:small;
+            color:rgb(0, 0, 0);
+        }
+        .i3 {
+            position:absolute;
+            top:52%;
+            left:7%;
+        }
+        .p1 {
+            position:absolute;
+            display:inline;
+            top:50%;
+            left:55%;
+            font-family:consolas;
+            font-size:small;
+            color:rgb(0, 0, 0);
+        }
+        .b {
+            position:absolute;
+            top:62%;
+            left:10%;
+            border:none;
+            width:80%;
+            height:40px;
+            border-radius:50px;
+            background-color:rgba(26, 24, 24, 0.2);
+            font-family:consolas;
+            font-size:x-large;
+            font-weight:500px;
+            color:rgb(0, 0, 0);
+        }
+        .b:hover {
+            background-color: rgba(26, 24, 24, 0.1);
+        }
+        .p2 {
+            position:absolute;
+            top:72%;
+            left:19%;
+            font-family:consolas;
+            font-size:small;
+            color:rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <form class="form">
+            <h1 class="h1">Login</h1>
+            <label class="l1"for="input1" required><b>E-mail</b></label>
+            <input class="i1"type="email" id="input1" required><br><br>
+            <label class="l2"for="input2" required><b>Password</b></label>
+            <input class="i2"type="password" id="input2" required><br><br>
+            <label class="l3"for="input3" ><b>Remember me</b></label>
+            <input class="i3" type="checkbox" id="input3">
+            <p class="p1" onclick="alert('Successfully logged in!')"><b>Forgot Password?</b></p>
+            <button class="b">Login</button>
+            <p class="p2"><b>Don't have account? </b><a  class="link" href="#"><b>Register</b></a></p>
+        </form>
+    </div>
+</body>
+</html>
