@@ -1,0 +1,255 @@
+body{
+    background-color:rgb(184, 233, 217);
+}
+.top {
+    position:absolute;
+    font-size:medium;
+    font-family:consolas;
+    left:48%;
+    top:5%;
+    color:rgb(81, 128, 112);
+}
+.bottom {
+    position:absolute;
+    font-size:medium;
+    font-family:consolas;
+    left:48%;
+    top:8%;
+    color:rgb(81, 128, 112);
+}
+.cont1 {
+    position:absolute;
+    width:54%;
+    height:60%;
+    left:23%;
+    background-color:white;
+    border-radius:15px;
+    box-shadow:0px 3px 5px 3px rgb(149, 211, 190);
+    top:20%;
+}
+.c1p1 {
+    position:absolute;
+    top:5%;
+    left:5%;
+    color:grey;
+    font-size:medium;
+    font-family:consolas;
+}
+.input1 {
+    position:absolute;
+    top:15%;
+    left:5%;
+    width:42%;
+    height:35px;
+    border:2px solid rgb(95, 199, 164);
+    border-radius:5px;
+    background-color:rgb(247, 250, 249);
+}
+.c1p2 {
+    position:absolute;
+    top:28%;
+    left:5%;
+    color:grey;
+    font-size:medium;
+    font-family:consolas;
+}
+.b1 {
+    position:absolute;
+    width:13%;
+    height:40px;
+    background-color:#005259;
+    border:none;
+    border-radius:5px;
+    left:5%;
+    top:40%;
+    color:white;
+    font-family:consolas;
+    font-weight:500;
+    font-size:large;
+}
+.b2 {
+    position:absolute;
+    width:13%;
+    height:40px;
+    background-color:#005259;
+    border:none;
+    border-radius:5px;
+    left:20%;
+    top:40%;
+    color:white;
+    font-family:consolas;
+    font-weight:500;
+    font-size:large;
+}
+.b3 {
+    position:absolute;
+    width:13%;
+    height:40px;
+    background-color:#005259;
+    border:none;
+    border-radius:5px;
+    left:35%;
+    top:40%;
+    color:white;
+    font-family:consolas;
+    font-weight:500;
+    font-size:large;
+}
+.b4 {
+    position:absolute;
+    width:13%;
+    height:40px;
+    background-color:#005259;
+    border:none;
+    border-radius:5px;
+    left:5%;
+    top:54%;
+    color:white;
+    font-family:consolas;
+    font-weight:500;
+    font-size:large;
+}
+.b5 {
+    position:absolute;
+    width:13%;
+    height:40px;
+    background-color:#005259;
+    border:none;
+    border-radius:5px;
+    left:20%;
+    top:54%;
+    color:white;
+    font-family:consolas;
+    font-weight:500;
+    font-size:large;
+}
+button:hover {
+    background-color:rgb(162, 238, 213);
+    color:#005259;
+}
+.input2 {
+    position:absolute;
+    top:54%;
+    left:35%;
+    width:12%;
+    height:35px;
+    border:2px solid rgb(95, 199, 164);
+    border-radius:5px;
+    background-color:rgb(247, 250, 249);
+}
+.c1p3 {
+    position:absolute;
+    top:67%;
+    left:5%;
+    color:grey;
+    font-size:medium;
+    font-family:consolas;
+}
+.c1p4 {
+    position:absolute;
+    top:67%;
+    left:32%;
+    color:rgb(224, 103, 103);
+    font-size:medium;
+    font-family:consolas;
+}
+.input3 {
+    position:absolute;
+    top:78%;
+    left:5%;
+    width:42%;
+    height:35px;
+    border:2px solid rgb(224, 103, 103);
+    border-radius:5px;
+    background-color:rgb(247, 250, 249);
+}
+.cont2 {
+    position:absolute;
+    top:9%;
+    left:53%;
+    width:43%;
+    height:82%;
+    background-color:#005259;
+    border-radius:10px;
+}
+.c2p1 {
+    position:absolute;
+    top:5%;
+    left:10%;
+    font-size:medium;
+    font-family:consolas;
+    color:white;
+}
+.c2p2 {
+    position:absolute;
+    top:14%;
+    left:10%;
+    font-size:x-small;
+    font-family:consolas;
+    color:grey;
+}
+.c2p3 {
+    position:absolute;
+    top:30%;
+    left:10%;
+    font-size:medium;
+    font-family:consolas;
+    color:white;
+}
+.c2p4 {
+    position:absolute;
+    top:39%;
+    left:10%;
+    font-size:x-small;
+    font-family:consolas;
+    color:grey;
+}
+.c2p5 {
+    position:absolute;
+    top:5%;
+    right:33%;
+    color:rgb(95, 199, 164);
+    font-family: consolas;
+    font-size:x-large;
+    font-weight:600;
+}
+.c2p6 {
+    position:absolute;
+    top:28%;
+    right:33%;
+    color:rgb(95, 199, 164);
+    font-family: consolas;
+    font-size:x-large;
+    font-weight:600;
+}
+.c2p7 {
+    position:absolute;
+    top:1%;
+    right:10%;
+    color:rgb(95, 199, 164);
+    font-family: consolas;
+    font-size:xx-large;
+    font-weight:600;
+}
+.c2p8 {
+    position:absolute;
+    top:24%;
+    right:10%;
+    color:rgb(95, 199, 164);
+    font-family: consolas;
+    font-size:xx-large;
+    font-weight:600
+}
+.b6 {
+    position:absolute;
+    top:80%;
+    left:10%;
+    background-color:rgb(128, 207, 181);
+    border:none;
+    border-radius:5px;
+    color:rgb(17, 34, 28);
+    width:80%;
+    height:35px;
+    font-weight:700;
+    font-size:large;
+}
