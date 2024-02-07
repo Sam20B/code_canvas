@@ -1,18 +1,26 @@
 body {
     background-size:cover;
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3NuLdm0RbwYiJ-pm6VWICL374IWkxjrEcw&usqp=CAU');
+    background-position-x:right;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .cont {
-    position:absolute;
-    left:37.5%;
-    top:20%;
-    width:25%;
-    height:60%;
-    border-radius:10px;
-    background-color:rgba(48, 46, 46, 0.3);
-    backdrop-filter:blur;
-    box-shadow: 0px 10px 15px 7px rgb(44, 42, 42, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px; /* Set a specific width for the container */
+    min-height: 60%;
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 65%;
+    border-radius: 10px;
+    background-color: rgba(48, 46, 46, 0.3);
+    backdrop-filter: blur;
+    box-shadow: 0px 10px 15px 7px rgba(44, 42, 42, 0.2);
 }
+
 .h1 {
     position:absolute;
     top:2%;
@@ -41,6 +49,7 @@ body {
     border-right:none;
     background-color:rgba(100, 98, 98, 0.0);
     vertical-align: baseline;
+    text-align:center;
 }
 .i1:focus {
     outline:none;
@@ -65,6 +74,7 @@ body {
     border-left:none;
     border-right:none;
     background-color:rgba(100, 98, 98, 0.0);
+    text-align:center;
 }
 .i2:focus {
     outline:none;
@@ -85,7 +95,7 @@ body {
 .p1 {
     position:absolute;
     display:inline;
-    top:50%;
+    top:53%;
     left:55%;
     font-family:consolas;
     font-size:small;
