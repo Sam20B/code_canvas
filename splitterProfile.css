@@ -1,5 +1,11 @@
 body{
     background-color:rgb(184, 233, 217);
+    min-width: 800px; /* Set your desired minimum width */
+    min-height: 550px; /* Set your desired minimum height */
+}
+html, body {
+    height: 100%;
+
 }
 .top {
     position:absolute;
@@ -18,15 +24,19 @@ body{
     color:rgb(81, 128, 112);
 }
 .cont1 {
-    position:absolute;
-    width:54%;
-    height:60%;
-    left:23%;
-    background-color:white;
-    border-radius:15px;
-    box-shadow:0px 3px 5px 3px rgb(149, 211, 190);
-    top:20%;
-}
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    height: 375px;
+    min-height: 350px;
+    max-height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px 3px rgb(149, 211, 190);
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering trick */
+    
 .c1p1 {
     position:absolute;
     top:5%;
