@@ -36,7 +36,7 @@ html, body {
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Centering trick */
-    
+}
 .c1p1 {
     position:absolute;
     top:5%;
@@ -54,6 +54,13 @@ html, body {
     border:2px solid rgb(95, 199, 164);
     border-radius:5px;
     background-color:rgb(247, 250, 249);
+    font-size:large;
+    font-family:consolas;
+    color:rgb(81, 128, 112);
+    text-align:right;
+}
+.input1:focus {
+    outline:none;
 }
 .c1p2 {
     position:absolute;
@@ -146,6 +153,13 @@ button:hover {
     border:2px solid rgb(95, 199, 164);
     border-radius:5px;
     background-color:rgb(247, 250, 249);
+    font-size:large;
+    font-family:consolas;
+    color:rgb(81, 128, 112);
+    text-align:center;
+}
+.input2:focus {
+    outline:none;
 }
 .c1p3 {
     position:absolute;
@@ -172,6 +186,13 @@ button:hover {
     border:2px solid rgb(224, 103, 103);
     border-radius:5px;
     background-color:rgb(247, 250, 249);
+    font-size:large;
+    font-family:consolas;
+    color:rgb(81, 128, 112);
+    text-align:right;
+}
+.input3:focus {
+    outline:none;
 }
 .cont2 {
     position:absolute;
