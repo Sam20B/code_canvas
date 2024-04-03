@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        class MathOperations {
+            static add(x, y) {
+              return x + y;
+            }
+
+            static multiply(x, y) {
+              return x * y;
+            }
+          }
+
+          // Calling static functions without creating an instance
+          const sum = MathOperations.add(3, 5);
+          const product = MathOperations.multiply(4, 6);
+
+          console.log(sum);     // Output: 8
+          console.log(product);  // Output: 24
+
+    </script>
+</body>
+</html>
