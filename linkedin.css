@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(42, 8, 87);
+}
+h1 {
+    position:absolute;
+    top:35%;
+    left:40%;
+    width:60%;
+    color: rgb(220, 203, 236);
+    font-size:85px;
+}
+h3 {
+    position:absolute;
+    top:52%;
+    left:40%;
+    color: rgb(220, 203, 236);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:55px;
+}
+.cont1 {
+    position:absolute;
+    width:300px;
+    height:2px;
+    top:45%;
+    left:40%;
+    border:2px solid rgb(172, 140, 202);
+}
+.cont2 {
+    position:absolute;
+    width:345px;
+    height:2px;
+    top:58%;
+    left:55%;
+    border:2px solid rgb(172, 140, 202);
+}
